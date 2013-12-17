@@ -4,12 +4,13 @@ body {
   background: #8CBD4C; /*url('img/bg-texture.jpg') repeat;*/
 }
 
-div {
+/*div {
   outline: 1px solid white;
-}
+}*/
 
 img{
   max-width: 95%;
+  border: 2px solid #FAFAFA;
 }
 
 a {
@@ -30,14 +31,20 @@ h2 {
 .btn {
   color: #272727;
   background: white;/* url('img/texture.png') no-repeat right top;*/
-  padding: 15px 30px;
+  padding: 12px 25px;
   margin: 40px 0px;
   border-radius: 25px;
+  border: 3px solid #525252;
   text-transform: uppercase;
 }
 
 .btn:hover {
-  background-color: #4CC4A7;
+  color: white;
+  background-color: #525252;
+}
+
+{
+  max-width: 45%;
 }
 
 ul.nav {
@@ -53,23 +60,49 @@ ul.nav li {
 
 ul.nav li a {
   color: #272727;
+  background: white;/* url('img/texture.png') no-repeat right top;*/
+  padding: 1px 6px;
+  border-radius:25px;
+  border: 2px solid #525252;
+}
+
+ul.nav li a:hover {
+  color: white;
+  background-color: #525252;
+}
+
+#squirrel{
+  text-align: center;
+}
+
+#squirrel img{
+  max-width: 40%;
+  margin: 20px auto;
+  border: none;
 }
 
 #intro {
-  margin: 50px 0 75px 0;
+  margin-top: 50px;
+  margin-bottom: 75px;
+  /*margin-left: 0px;*/
 }
 
 #new-cupcakes img {
-  border: 8px solid #FAF3BC;
+  /*border: 8px solid #FAF3BC;*/
   margin: 0 0 20px 0;
 }
 
 #featured-cupcake img {
-  border: 8px solid #FAF3BC;
+  /*border: 8px solid #FAF3BC;*/
+}
+
+#contact img {
+  max-width: 12%;
+  border: none;
 }
 
 #copyright {
-  border-top: 4px solid #272727;
+  border-top: 1px solid white;
   padding: 10px 0px;
   margin: 15px 0px;
   text-align: center;
