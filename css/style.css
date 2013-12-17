@@ -4,6 +4,14 @@ body {
   background: #8CBD4C; /*url('img/bg-texture.jpg') repeat;*/
 }
 
+div {
+  outline: 1px solid white;
+}
+
+img{
+  max-width: 95%;
+}
+
 a {
   color: #272727;
   text-decoration: none;
